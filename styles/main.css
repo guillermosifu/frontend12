@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 80px;
+}
+header, footer {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: space-between;
+}
+article, nav {
+    background-color: #c4c4c4;
+}
+.logo   {
+    padding: 10px;
+    display:block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: #c4c4c4;
+}
+nav {
+    width: 470px;
+    margin: 10px;
+}
+ul.nav-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+ul.aside-links {
+    list-style-type: none;
+}
+ul.nav-links li {
+    font-weight: 400;
+}
+ul.nav-links li a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.columna-menu {
+    flex: 20%;
+}
+.columna-main {
+    flex:80%;
+    padding: 10px;
+}
+.main-section {
+    display: flex;
+}
+.columna-formulario {
+    flex: 50%;
+}
+.columna-ubicanos {
+    flex:50%;
+
+}
+.section-formulario {
+    display: flex;
+    width: 100%;
+    padding: 40px;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+aside {
+  background-color: #C4C4C4;
+  padding: 10px;
+}
+.categorias {
+background-color: #CC2323;
+    padding: 10px;
+}
+.categorias h2 {
+    color:#fff;
+}
+ul.nav-links li a :hover {
+    color: #fff;
+}
+ul.aside-links li {
+    color: #fff;
+}
+ul.aside-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+article {
+    display: inline-block;
+    padding: 10px;
+}
+input, textarea {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 3px; 
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input:focus:invalid, textarea:focus:invalid {
+    border: 1px solid #ff0000;
+}
+input:valid, textarea:valid {
+    border: 1px solid rgb(1, 112, 1);
+}
+button {
+    background-color: #CC2323;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.copyright, .desarrollado {
+    color: #fff;
+    background-color: #ff0000;
+}
+.copyright {
+    flex: 50%;
+    padding-left: 10px;
+}
+.desarrollado {
+    flex:50%;
+    text-align: right;
+}
+footer {
+    display: flex;
+    padding-right: 10px;
+}

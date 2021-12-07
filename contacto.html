@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina de Contacto" />
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a class="link" href="index.html">LOGO</a></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="deportes.html">Deportes</a></li>
+          <li><a href="humor.html">Humor</a></li>
+          <li><a href="espectaculos.html">Espectáculos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-section">
+        <h1>Contacto</h1>
+      <section class="section-formulario">
+        <form action="get" method="" class="columna-formulario">
+          <div>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Nombres y Apellidos"
+              required
+            />
+          </div>
+          <div>
+            <input
+              id="age"
+              name="age"
+              type="number"
+              min="12"
+              max="65"
+              placeholder="Edad"
+              required
+            />
+          </div>
+          <div>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div>
+            <select name="country" id="country" required>
+              <option value="">Seleccionar</option>
+              <option value="1">Perú</option>
+              <option value="2">Argentina</option>
+              <option value="3">Brasil</option>
+            </select>
+          </div>
+          <div>
+            <strong>Sexo</strong>
+            <input type="radio" name="sex" id="sexf" value="f" checked /><label
+              for="sexf"
+              >F</label
+            >
+            <input type="radio" name="sex" id="sexm" value="m" /><label
+              for="sexm"
+              >M</label
+            >
+          </div>
+          <div>
+            <strong>Intereses</strong>
+            <input type="checkbox" id="tech" value="tech" checked /><label
+              for="tech"
+              >Tecnologia</label
+            >
+            <input type="checkbox" id="politic" value="politic" checked /><label
+              for="tech"
+              >Política</label
+            >
+            <input type="checkbox" id="fashion" value="fashion" checked /><label
+              for="fashion"
+              >Moda</label
+            >
+          </div>
+          <div>
+            <div>
+                <textarea name="comments" id="comments" placeholder="Comentarios" cols="30" rows="10"></textarea>
+            </div>
+          </div>
+          <div>
+            <button id="submit" type="submit">Registrar</button>
+            <button id="reset" type="reset">Limpiar</button>
+          </div>
+        </form>
+        <section class="columna-ubicanos">
+          <h2>Ubícanos</h2>
+          <p>Calle Rodin 3847 Urb La Calera - Surquillo</p>
+          <p>Lima - Perú</p>
+          <p>Teléfono : 7498273498</p>
+          <figure>
+            <img src="http://lorempixel.com/400/200/business/5/" alt="" />
+          </figure>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">Todos los derechos reservados</p>
+      <p class="desarrollado">Desarrollado por Codigo</p>
+    </footer>
+  </body>
+  <script src="./scripts/main.js"></script>
+</html>
